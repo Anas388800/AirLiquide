@@ -1,0 +1,335 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# _autosave-LauncherBall-eagle-import_1N4007
+#
+DEF _autosave-LauncherBall-eagle-import_1N4007 D 0 40 Y Y 1 L N
+F0 "D" 100 19 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_1N4007" 100 -91 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -50 -46 -50 -50 N
+P 2 1 0 0 -50 46 -50 -46 N
+P 2 1 0 0 -50 50 -50 46 N
+P 2 1 0 0 -50 50 43 0 N
+P 2 1 0 0 -46 37 31 -3 N
+P 2 1 0 0 -43 -37 -43 31 N
+P 2 1 0 0 -43 31 15 -6 N
+P 2 1 0 0 -37 -25 -34 21 N
+P 2 1 0 0 -34 21 0 -6 N
+P 2 1 0 0 -28 6 -12 -6 N
+P 2 1 0 0 -25 -12 -28 6 N
+P 2 1 0 0 -12 -6 -31 -15 N
+P 2 1 0 0 0 -6 -25 -12 N
+P 2 1 0 0 15 -6 -37 -25 N
+P 2 1 0 0 31 -3 -43 -37 N
+P 2 1 0 0 43 0 -50 -50 N
+P 2 1 0 0 46 50 46 -50 N
+P 2 1 0 0 100 0 -100 0 N
+X A A -100 0 100 R 0 0 1 0 P
+X K K 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_2N3906
+#
+DEF _autosave-LauncherBall-eagle-import_2N3906 Q 0 40 Y Y 1 L N
+F0 "Q" -400 300 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_2N3906" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 20 58 82 66 N
+P 2 1 0 0 30 65 70 70 N
+P 2 1 0 0 45 75 60 75 N
+P 2 1 0 0 60 85 45 75 N
+P 2 1 0 0 60 95 30 65 N
+P 2 1 0 0 62 102 20 58 N
+P 2 1 0 0 70 70 60 85 N
+P 2 1 0 0 75 70 60 95 N
+P 2 1 0 0 82 66 62 102 N
+P 2 1 0 0 100 -100 20 -60 N
+P 2 1 0 0 100 100 71 83 N
+X C 1 100 -200 100 U 0 0 1 0 P
+X B 2 -100 0 100 R 0 0 1 0 P
+X E 3 100 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_2N4416
+#
+DEF _autosave-LauncherBall-eagle-import_2N4416 Q 0 40 Y Y 1 L N
+F0 "Q" -400 300 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_2N4416" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 50 -100 70 -60 N
+P 2 1 0 0 60 -95 90 -95 N
+P 2 1 0 0 60 -90 75 -90 N
+P 2 1 0 0 60 -80 12 -56 N
+P 2 1 0 0 70 -70 60 -90 N
+P 2 1 0 0 70 -60 100 -100 N
+P 2 1 0 0 75 -90 70 -80 N
+P 2 1 0 0 90 -95 70 -70 N
+P 2 1 0 0 100 -100 50 -100 N
+P 2 1 0 0 100 100 20 60 N
+X C 1 100 200 100 D 0 0 1 0 P
+X B 2 -100 0 100 R 0 0 1 0 P
+X E 3 100 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_78DT
+#
+DEF _autosave-LauncherBall-eagle-import_78DT IC 0 40 Y Y 1 L N
+F0 "IC" -300 225 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_78DT" -300 125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -80 -170 51 0 1 0 GND Normal 0 L B
+P 2 1 0 0 -300 -200 300 -200 N
+P 2 1 0 0 -300 100 -300 -200 N
+P 2 1 0 0 300 -200 300 100 N
+P 2 1 0 0 300 100 -300 100 N
+X VI 1 -400 0 100 R 50 50 1 0 I
+X VO 2 400 0 100 L 50 50 1 0 P
+X GND 3 0 -300 100 U 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_C-EUC0603
+#
+DEF _autosave-LauncherBall-eagle-import_C-EUC0603 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_C-EUC0603" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_CAP-2,5
+#
+DEF _autosave-LauncherBall-eagle-import_CAP-2,5 C 0 40 Y Y 1 L N
+F0 "C" 100 50 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_CAP-2,5" 100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 12 N 0 -40 -97 -72
+A 0 -197 159 519 900 1 0 12 N 98 -72 0 -39
+P 2 1 0 0 -100 0 0 0 N
+P 2 1 0 0 0 -200 0 -50 N
+P 2 1 0 0 0 -50 0 -100 N
+P 2 1 0 0 0 -40 0 -50 N
+P 2 1 0 0 0 0 0 100 N
+P 2 1 0 0 0 0 100 0 N
+X 1 + 0 100 100 D 0 0 1 0 P
+X 2 - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_CAP-3
+#
+DEF _autosave-LauncherBall-eagle-import_CAP-3 C 0 40 Y Y 1 L N
+F0 "C" 100 50 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_CAP-3" 100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -199 159 900 1274 1 0 12 N 0 -40 -97 -72
+A 0 -197 159 519 900 1 0 12 N 98 -72 0 -39
+P 2 1 0 0 -100 0 0 0 N
+P 2 1 0 0 0 -200 0 -50 N
+P 2 1 0 0 0 -50 0 -100 N
+P 2 1 0 0 0 -40 0 -50 N
+P 2 1 0 0 0 0 0 100 N
+P 2 1 0 0 0 0 100 0 N
+X 1 + 0 100 100 D 0 0 1 0 P
+X 2 - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_CAP-NP5
+#
+DEF _autosave-LauncherBall-eagle-import_CAP-NP5 C 0 40 Y Y 1 L N
+F0 "C" -150 100 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_CAP-NP5" -150 -150 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -101 0 -200 0 N
+P 2 1 0 0 -101 0 -70 0 N
+P 2 1 0 0 -100 0 -101 0 N
+P 2 1 0 0 -100 0 -70 0 N
+P 2 1 0 0 -70 0 -70 -60 N
+P 2 1 0 0 -70 60 -70 0 N
+P 2 1 0 0 -30 0 -30 -60 N
+P 2 1 0 0 -30 0 -29 0 N
+P 2 1 0 0 -30 60 -30 0 N
+P 2 1 0 0 -29 0 0 0 N
+P 2 1 0 0 0 0 2 0 N
+P 2 1 0 0 2 0 -29 0 N
+P 2 1 0 0 2 0 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_GND
+#
+DEF _autosave-LauncherBall-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "_autosave-LauncherBall-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_IRF512
+#
+DEF _autosave-LauncherBall-eagle-import_IRF512 Q 0 40 Y Y 1 L N
+F0 "Q" 200 100 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_IRF512" 200 0 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 100 -75 5 1 0 16 N
+T 0 50 100 27 0 1 0 D Normal 0 L B
+T 0 -100 -50 27 0 1 0 G Normal 0 L B
+T 0 50 -125 27 0 1 0 S Normal 0 L B
+S -10 -100 20 -50 1 0 0 F
+S -10 -35 20 35 1 0 0 F
+S -10 50 20 100 1 0 0 F
+P 2 1 0 0 -44 -100 -100 -100 N
+P 2 1 0 0 -44 95 -44 -100 N
+P 2 1 0 0 20 -75 100 -75 N
+P 2 1 0 0 20 0 70 -20 N
+P 2 1 0 0 30 0 65 -10 N
+P 2 1 0 0 65 -10 65 0 N
+P 2 1 0 0 65 0 55 0 N
+P 2 1 0 0 65 0 100 0 N
+P 2 1 0 0 65 10 30 0 N
+P 2 1 0 0 70 -20 70 20 N
+P 2 1 0 0 70 20 20 0 N
+P 2 1 0 0 100 -75 100 -100 N
+P 2 1 0 0 100 0 100 -75 N
+P 2 1 0 0 100 75 21 75 N
+P 2 1 0 0 100 100 100 75 N
+X D D 100 200 100 D 0 0 1 0 P
+X G G -100 -100 0 R 0 0 1 0 P
+X S S 100 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_PIC12F675SN
+#
+DEF _autosave-LauncherBall-eagle-import_PIC12F675SN IC 0 40 Y Y 1 L N
+F0 "IC" -400 550 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_PIC12F675SN" -400 -500 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -400 -400 500 N
+P 2 1 0 0 -400 500 500 500 N
+P 2 1 0 0 500 -400 -400 -400 N
+P 2 1 0 0 500 500 500 -400 N
+X VCC 1 -500 400 100 R 50 50 1 0 W
+X GP5/CLKIN 2 -500 -200 100 R 50 50 1 0 B
+X GP4/AN3 3 600 -100 100 L 50 50 1 0 B
+X GP3/~MCLR 4 -500 300 100 R 50 50 1 0 I
+X GP2/AN2 5 600 0 100 L 50 50 1 0 B
+X VREF/GP1/AN1 6 600 100 100 L 50 50 1 0 B
+X GP0/AN0 7 600 200 100 L 50 50 1 0 B
+X GND 8 -500 -300 100 R 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_PINHEAD-3
+#
+DEF _autosave-LauncherBall-eagle-import_PINHEAD-3 JP 0 40 Y Y 1 L N
+F0 "JP" -250 225 59 H V L BNN
+F1 "_autosave-LauncherBall-eagle-import_PINHEAD-3" -250 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -37 -100 39 1 0 12 N
+C -37 0 39 1 0 12 N
+C -37 100 39 1 0 12 N
+P 2 1 0 0 -250 -200 50 -200 N
+P 2 1 0 0 -250 200 -250 -200 N
+P 2 1 0 0 -100 -100 -75 -100 N
+P 2 1 0 0 -100 0 -75 0 N
+P 2 1 0 0 -100 100 -75 100 N
+P 2 1 0 0 50 -200 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+X 3 3 -100 -100 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_R-7,5
+#
+DEF _autosave-LauncherBall-eagle-import_R-7,5 R 0 40 Y Y 1 L N
+F0 "R" -150 400 59 V V R TNN
+F1 "_autosave-LauncherBall-eagle-import_R-7,5" -50 400 59 V V R TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 0 -137 0 N
+P 2 1 0 0 -135 0 -137 0 N
+P 2 1 0 0 -105 55 -135 0 N
+P 2 1 0 0 -70 -55 -105 55 N
+P 2 1 0 0 -22 55 -70 -55 N
+P 2 1 0 0 25 -55 -22 55 N
+P 2 1 0 0 72 55 25 -55 N
+P 2 1 0 0 107 -55 72 55 N
+P 2 1 0 0 137 0 107 -55 N
+P 2 1 0 0 200 0 137 0 N
+X 1 1 -200 0 0 R 50 0 1 0 P
+X 2 2 200 0 0 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# _autosave-LauncherBall-eagle-import_R-TRIMM64W
+#
+DEF _autosave-LauncherBall-eagle-import_R-TRIMM64W R 0 40 Y Y 1 L N
+F0 "R" -235 -150 59 V V L BNN
+F1 "_autosave-LauncherBall-eagle-import_R-TRIMM64W" -150 -150 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -100 -100 -20 N
+P 2 1 0 0 -100 -20 -120 -60 N
+P 2 1 0 0 -100 -20 -80 -60 N
+P 2 1 0 0 -90 50 -65 95 N
+P 2 1 0 0 -30 -100 30 -100 N
+P 2 1 0 0 -30 100 -30 -100 N
+P 2 1 0 0 0 100 -30 100 N
+P 2 1 0 0 0 100 0 200 N
+P 2 1 0 0 30 -100 30 100 N
+P 2 1 0 0 30 100 0 100 N
+P 2 1 0 0 65 0 -74 69 N
+P 2 1 0 0 100 0 65 0 N
+X A 1 0 -200 100 U 50 0 1 0 P
+X S 2 200 0 100 L 50 0 1 0 P
+X E 3 0 200 100 D 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

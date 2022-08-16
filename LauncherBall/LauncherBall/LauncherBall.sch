@@ -1,0 +1,474 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM317_TO-220 U?
+U 1 1 617B2023
+P 1900 1500
+F 0 "U?" H 1900 1742 50  0000 C CNN
+F 1 "LM317_TO-220" H 1900 1651 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1900 1750 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 1900 1500 50  0001 C CNN
+	1    1900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617B2C59
+P 2450 1700
+F 0 "R?" H 2520 1746 50  0000 L CNN
+F 1 "R" H 2520 1655 50  0000 L CNN
+F 2 "" V 2380 1700 50  0001 C CNN
+F 3 "~" H 2450 1700 50  0001 C CNN
+	1    2450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617B3DE5
+P 1900 2050
+F 0 "R?" H 1970 2096 50  0000 L CNN
+F 1 "R" H 1970 2005 50  0000 L CNN
+F 2 "" V 1830 2050 50  0001 C CNN
+F 3 "~" H 1900 2050 50  0001 C CNN
+	1    1900 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 1500 2450 1500
+Wire Wire Line
+	2450 1500 2450 1550
+Wire Wire Line
+	2450 1850 1900 1850
+Wire Wire Line
+	1900 1850 1900 1800
+Wire Wire Line
+	1900 1850 1900 1900
+Connection ~ 1900 1850
+$Comp
+L power:Earth #PWR0101
+U 1 1 617B4B4E
+P 1900 2250
+F 0 "#PWR0101" H 1900 2000 50  0001 C CNN
+F 1 "Earth" H 1900 2100 50  0001 C CNN
+F 2 "" H 1900 2250 50  0001 C CNN
+F 3 "~" H 1900 2250 50  0001 C CNN
+	1    1900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2200 1900 2250
+$Comp
+L Device:C C?
+U 1 1 617B5730
+P 1300 1750
+F 0 "C?" H 1415 1796 50  0000 L CNN
+F 1 "C" H 1415 1705 50  0000 L CNN
+F 2 "" H 1338 1600 50  0001 C CNN
+F 3 "~" H 1300 1750 50  0001 C CNN
+	1    1300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1500 1300 1500
+Wire Wire Line
+	1300 1500 1300 1600
+$Comp
+L power:Earth #PWR0102
+U 1 1 617B6A89
+P 1300 2250
+F 0 "#PWR0102" H 1300 2000 50  0001 C CNN
+F 1 "Earth" H 1300 2100 50  0001 C CNN
+F 2 "" H 1300 2250 50  0001 C CNN
+F 3 "~" H 1300 2250 50  0001 C CNN
+	1    1300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1900 1300 2250
+$Comp
+L power:+24V #PWR0103
+U 1 1 617B8672
+P 1050 1450
+F 0 "#PWR0103" H 1050 1300 50  0001 C CNN
+F 1 "+24V" H 1065 1623 50  0000 C CNN
+F 2 "" H 1050 1450 50  0001 C CNN
+F 3 "" H 1050 1450 50  0001 C CNN
+	1    1050 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1500 1050 1500
+Wire Wire Line
+	1050 1500 1050 1450
+Connection ~ 1300 1500
+$Comp
+L Device:CP C?
+U 1 1 617B97F3
+P 2900 1700
+F 0 "C?" H 3018 1746 50  0000 L CNN
+F 1 "CP" H 3018 1655 50  0000 L CNN
+F 2 "" H 2938 1550 50  0001 C CNN
+F 3 "~" H 2900 1700 50  0001 C CNN
+	1    2900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1500 2900 1500
+Wire Wire Line
+	2900 1500 2900 1550
+Connection ~ 2450 1500
+$Comp
+L power:Earth #PWR0104
+U 1 1 617BAB9C
+P 2900 2250
+F 0 "#PWR0104" H 2900 2000 50  0001 C CNN
+F 1 "Earth" H 2900 2100 50  0001 C CNN
+F 2 "" H 2900 2250 50  0001 C CNN
+F 3 "~" H 2900 2250 50  0001 C CNN
+	1    2900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 617BB020
+P 3400 1700
+F 0 "C?" H 3515 1746 50  0000 L CNN
+F 1 "C" H 3515 1655 50  0000 L CNN
+F 2 "" H 3438 1550 50  0001 C CNN
+F 3 "~" H 3400 1700 50  0001 C CNN
+	1    3400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1500 3400 1500
+Wire Wire Line
+	3400 1500 3400 1550
+Connection ~ 2900 1500
+Wire Wire Line
+	2900 1850 2900 2250
+$Comp
+L power:Earth #PWR0105
+U 1 1 617BBEC9
+P 3400 2250
+F 0 "#PWR0105" H 3400 2000 50  0001 C CNN
+F 1 "Earth" H 3400 2100 50  0001 C CNN
+F 2 "" H 3400 2250 50  0001 C CNN
+F 3 "~" H 3400 2250 50  0001 C CNN
+	1    3400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1850 3400 2250
+$Comp
+L Regulator_Linear:LM317_TO-220 U?
+U 1 1 617BE299
+P 4050 1500
+F 0 "U?" H 4050 1742 50  0000 C CNN
+F 1 "LM317_TO-220" H 4050 1651 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4050 1750 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 4050 1500 50  0001 C CNN
+	1    4050 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1500 3750 1500
+Connection ~ 3400 1500
+$Comp
+L Device:R R?
+U 1 1 617BF19A
+P 4600 1650
+F 0 "R?" H 4670 1696 50  0000 L CNN
+F 1 "R" H 4670 1605 50  0000 L CNN
+F 2 "" V 4530 1650 50  0001 C CNN
+F 3 "~" H 4600 1650 50  0001 C CNN
+	1    4600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1800 4050 1800
+Wire Wire Line
+	4350 1500 4600 1500
+$Comp
+L Device:R R?
+U 1 1 617BFE39
+P 4050 2000
+F 0 "R?" H 4120 2046 50  0000 L CNN
+F 1 "R" H 4120 1955 50  0000 L CNN
+F 2 "" V 3980 2000 50  0001 C CNN
+F 3 "~" H 4050 2000 50  0001 C CNN
+	1    4050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 1850 4050 1800
+Connection ~ 4050 1800
+$Comp
+L power:Earth #PWR0106
+U 1 1 617C042B
+P 4050 2250
+F 0 "#PWR0106" H 4050 2000 50  0001 C CNN
+F 1 "Earth" H 4050 2100 50  0001 C CNN
+F 2 "" H 4050 2250 50  0001 C CNN
+F 3 "~" H 4050 2250 50  0001 C CNN
+	1    4050 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2250 4050 2150
+$Comp
+L Device:CP C?
+U 1 1 617C0FAC
+P 5050 1700
+F 0 "C?" H 5168 1746 50  0000 L CNN
+F 1 "CP" H 5168 1655 50  0000 L CNN
+F 2 "" H 5088 1550 50  0001 C CNN
+F 3 "~" H 5050 1700 50  0001 C CNN
+	1    5050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1500 5050 1500
+Wire Wire Line
+	5050 1500 5050 1550
+Connection ~ 4600 1500
+$Comp
+L power:Earth #PWR0107
+U 1 1 617C203E
+P 5050 2250
+F 0 "#PWR0107" H 5050 2000 50  0001 C CNN
+F 1 "Earth" H 5050 2100 50  0001 C CNN
+F 2 "" H 5050 2250 50  0001 C CNN
+F 3 "~" H 5050 2250 50  0001 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1850 5050 2250
+$Comp
+L Device:R R?
+U 1 1 617C2E6B
+P 5500 1750
+F 0 "R?" H 5570 1796 50  0000 L CNN
+F 1 "R" H 5570 1705 50  0000 L CNN
+F 2 "" V 5430 1750 50  0001 C CNN
+F 3 "~" H 5500 1750 50  0001 C CNN
+	1    5500 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 1500 5300 1500
+Wire Wire Line
+	5500 1500 5500 1600
+Connection ~ 5050 1500
+$Comp
+L Device:LED D?
+U 1 1 617C4D45
+P 5500 2100
+F 0 "D?" V 5539 1982 50  0000 R CNN
+F 1 "LED" V 5448 1982 50  0000 R CNN
+F 2 "" H 5500 2100 50  0001 C CNN
+F 3 "~" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR0108
+U 1 1 617C5BAF
+P 5500 2300
+F 0 "#PWR0108" H 5500 2050 50  0001 C CNN
+F 1 "Earth" H 5500 2150 50  0001 C CNN
+F 2 "" H 5500 2300 50  0001 C CNN
+F 3 "~" H 5500 2300 50  0001 C CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1900 5500 1950
+Wire Wire Line
+	5500 2250 5500 2300
+Text Notes 950  950  0    50   ~ 0
+Alimentation
+$Comp
+L power:+24V #PWR0109
+U 1 1 617C95EB
+P 3400 1400
+F 0 "#PWR0109" H 3400 1250 50  0001 C CNN
+F 1 "+24V" H 3415 1573 50  0000 C CNN
+F 2 "" H 3400 1400 50  0001 C CNN
+F 3 "" H 3400 1400 50  0001 C CNN
+	1    3400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1500 3400 1400
+$Comp
+L power:+5V #PWR0110
+U 1 1 617D0E3A
+P 5300 1350
+F 0 "#PWR0110" H 5300 1200 50  0001 C CNN
+F 1 "+5V" H 5315 1523 50  0000 C CNN
+F 2 "" H 5300 1350 50  0001 C CNN
+F 3 "" H 5300 1350 50  0001 C CNN
+	1    5300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1350 5300 1500
+Connection ~ 5300 1500
+Wire Wire Line
+	5300 1500 5500 1500
+Wire Notes Line
+	950  2550 5850 2550
+Wire Notes Line
+	5850 2550 5850 1000
+Wire Notes Line
+	5850 1000 950  1000
+Wire Notes Line
+	950  1000 950  2550
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A?
+U 1 1 617D8877
+P 10100 4500
+F 0 "A?" H 10100 3411 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 10100 3320 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 10100 4500 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 10100 4500 50  0001 C CNN
+	1    10100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 617E2CF4
+P 7700 1550
+F 0 "J?" H 7728 1526 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 7728 1435 50  0000 L CNN
+F 2 "" H 7700 1550 50  0001 C CNN
+F 3 "~" H 7700 1550 50  0001 C CNN
+	1    7700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 617E7667
+P 7150 1250
+F 0 "#PWR?" H 7150 1100 50  0001 C CNN
+F 1 "+5V" H 7165 1423 50  0000 C CNN
+F 2 "" H 7150 1250 50  0001 C CNN
+F 3 "" H 7150 1250 50  0001 C CNN
+	1    7150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1750 7150 1750
+Wire Wire Line
+	7150 1750 7150 1250
+$Comp
+L power:Earth #PWR?
+U 1 1 617E84CF
+P 7300 2400
+F 0 "#PWR?" H 7300 2150 50  0001 C CNN
+F 1 "Earth" H 7300 2250 50  0001 C CNN
+F 2 "" H 7300 2400 50  0001 C CNN
+F 3 "~" H 7300 2400 50  0001 C CNN
+	1    7300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1650 7300 1650
+$Comp
+L Device:R R?
+U 1 1 617E99A2
+P 6900 1700
+F 0 "R?" H 6970 1746 50  0000 L CNN
+F 1 "R" H 6970 1655 50  0000 L CNN
+F 2 "" V 6830 1700 50  0001 C CNN
+F 3 "~" H 6900 1700 50  0001 C CNN
+	1    6900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 617E9FCC
+P 6900 2100
+F 0 "R?" H 6970 2146 50  0000 L CNN
+F 1 "R" H 6970 2055 50  0000 L CNN
+F 2 "" V 6830 2100 50  0001 C CNN
+F 3 "~" H 6900 2100 50  0001 C CNN
+	1    6900 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1650 7300 2350
+Wire Wire Line
+	7500 1550 7200 1550
+Wire Wire Line
+	7200 1550 7200 1900
+Wire Wire Line
+	7200 1900 6900 1900
+Wire Wire Line
+	6900 1900 6900 1850
+Wire Wire Line
+	6900 1950 6900 1900
+Connection ~ 6900 1900
+Text GLabel 9350 5000 0    50   Input ~ 0
+TX
+Wire Wire Line
+	9600 5000 9350 5000
+Text GLabel 9350 4900 0    50   Input ~ 0
+RX
+Wire Wire Line
+	9600 4900 9350 4900
+Text GLabel 6850 1450 0    50   Input ~ 0
+RX
+Wire Wire Line
+	6850 1450 6900 1450
+Wire Wire Line
+	6900 1450 6900 1550
+Wire Wire Line
+	6900 2250 6900 2350
+Wire Wire Line
+	6900 2350 7300 2350
+Connection ~ 7300 2350
+Wire Wire Line
+	7300 2350 7300 2400
+Text GLabel 7450 1450 0    50   Input ~ 0
+TX
+Wire Wire Line
+	7450 1450 7500 1450
+NoConn ~ 7500 1850
+NoConn ~ 7500 1350
+Wire Notes Line
+	6500 1000 8550 1000
+Wire Notes Line
+	8550 1000 8550 2550
+Wire Notes Line
+	8550 2550 6500 2550
+Wire Notes Line
+	6500 2550 6500 1000
+Text Notes 7550 1100 0    50   ~ 0
+Module HC-05 Bluetooth\n
+$Comp
+L Sensor_Current:ACS712xLCTR-20A U?
+U 1 1 617F7822
+P 2100 3750
+F 0 "U?" H 2100 4331 50  0000 C CNN
+F 1 "ACS712xLCTR-20A" H 2100 4240 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 3400 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 2100 3750 50  0001 C CNN
+	1    2100 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
